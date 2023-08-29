@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-slide{
+  display: flex;
+  justify-content: space-between;
+  width: 99vw;
+  height: 55vh;
+  background-color: black;
+  margin: 20vh auto;
+  margin-top: 0px;
+  
+}
+
+.container-items {
+  position: absolute;
+  display: flex;
+  width: 99vw;
+  height: 55vh;
+  overflow: hidden;
+}
+
+.item {
+  width: 99vw;
+  height: 55vh;
+  transition: all 1s;
+}
+.item:first-child{
+  margin-left: -100%;
+}
+
+.item img {
+  width: 99vw;
+  height: 55vh;
+  
+}
+
+.action-button{
+  font: bold 30px sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  color: #00000000;
+  user-select: none;
+  z-index: 1;
+}
+.action-button:hover{
+  color: white;
+  background-color: #00000055;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+
+/* Estilos CSS */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ margin: 20px;
+}
+
+nav {
+  float: center;
+  margin-left: 500px;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 70px;
+  
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: large;
+}
+
+#logo {
+  width: 150px;
+  margin-left: -100px;
+}
+
+#Agende {
+  margin-left: 50px;
+  margin-top: 150px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+#sub {
+  margin-left: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top:-10px;
+  font-weight: lighter;
+  padding: 15px;
+}
+
+main {
+  padding: 20px;
+
+}
+
+.itens2 {
+  display: flex ;
+  position: relative;
+}
+
+.nome {
+  width: 30%;
+  background-color: #2b262613;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+
+.catalog-item {
+  width: 70%;
+  background-color: #f2f2f28f;
+  padding: 50px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 30px;
+  display: flex-end;
+}
+
+#pesquisar {
+  height: 55px;
+  margin-top: 40px;
+  width: 10%;
+  font-size: larger;
+}
+
+.servicos {
+  width: 15%;
+  background-color: #2b262613;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-right: 100px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  border-radius: 30px;
+
+
+
+}
+
+.Nservicos {
+  width: 70%;
+  height: 30px;
+  background-color: #f7f7f7ce;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 250px;
+
+}
+
+.box1 {
+  width: 90%;
+  height: 30px;
+  background-color: #2b262613;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box2 {
+  width: 90%;
+  height: 30px;
+  background-color: #2b262613;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box3 {
+  width: 90%;
+  height: 30px;
+  background-color: #2b262613;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box4 {
+  width: 90%;
+  height: 30px;
+  background-color: #2b262613;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.block {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
